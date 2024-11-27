@@ -6,6 +6,7 @@ package tp3_heroic_fantasy_charreton;
 
 import Armes.Baton;
 import Armes.Epee;
+import java.util.ArrayList;
 
 /**
  *
@@ -21,6 +22,17 @@ public class TP3_Heroic_Fantasy_CHARRETON {
        Epee Durandal = new Epee(4,7,"Durandal");
        Baton Charme = new Baton(5,6,"Charme");
        Baton Chene = new Baton(4,5,"Chêne");
+       
+       ArrayList<String> TabArmes = new ArrayList<String>();
+       TabArmes.add("Excalibur");
+       TabArmes.add("Durandal");
+       TabArmes.add("Charme");
+       TabArmes.add("Chene");
+       for (int i=0; i<TabArmes.size();i++){
+         System.out.println(Armes.Baton);
+       
+       
+       
     }
     
 }
